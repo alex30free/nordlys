@@ -1,0 +1,39 @@
+[
+  {
+    "id": "DEMO",
+    "demo": true,
+    "name": "Demo AB (sample)",
+    "yahoo": "",
+    "exchange": "Nasdaq Stockholm",
+    "country": "SE",
+    "currency": "SEK",
+    "benchmark": "DEMO-INDEX",
+    "benchmark_name": "OMXS30 (sample)",
+    "sector": "Industrials",
+    "industry": "Machinery",
+    "founded": 1950,
+    "employees": 12000,
+    "headquarters": "Stockholm, Sweden",
+    "tags": ["Sample data", "Industrial equipment", "Aftermarket service"],
+    "mission": "This is a made-up company that shows what a finished page looks like.",
+    "ir_url": ""
+  },
+  {
+    "id": "ATCO-A",
+    "name": "Atlas Copco A",
+    "yahoo": "ATCO-A.ST",
+    "exchange": "Nasdaq Stockholm",
+    "country": "SE",
+    "currency": "SEK",
+    "benchmark": "^OMX",
+    "benchmark_name": "OMXS30",
+    "sector": "",
+    "industry": "",
+    "founded": null,
+    "employees": null,
+    "headquarters": "",
+    "tags": [],
+    "mission": "",
+    "ir_url": ""
+  }
+]

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company – Nordlys</title>
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img class="brand-mark" src="assets/img/logo.svg" alt=""> Nordlys <small>Nordic stock analysis</small></a>
+    <div class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="search" type="search" placeholder="Search companies…" autocomplete="off">
+      <div id="search-results" class="search-results"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="head"><div class="loading">Loading…</div></div>
+    <nav class="tabs" id="tabs" role="tablist"></nav>
+    <section id="panel"></section>
+  </main>
+
+  <footer class="footer">Figures come from the sources shown on each tab. Prices: Yahoo Finance, daily close. For personal research only – not investment advice.</footer>
+
+  <script src="assets/vendor/chart.umd.min.js"></script>
+  <script src="assets/vendor/marked.min.js"></script>
+  <script src="assets/vendor/purify.min.js"></script>
+  <script src="config.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/company.js"></script>
+</body>
+</html>
